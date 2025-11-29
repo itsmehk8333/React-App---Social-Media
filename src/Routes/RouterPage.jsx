@@ -5,7 +5,7 @@ import SingleItemPage from "../Components/SingleItemPage";
 function RouterPage(){
     return<>
     <Routes>
-        <Route path="/items" element={<ItemsPage />}  ></Route>
+        <Route path="/" element={<ItemsPage />}  ></Route>
         <Route path="/item/:id"  element={<SingleItemPage/>}></Route>
     </Routes>
     
